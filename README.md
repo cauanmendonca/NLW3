@@ -1,0 +1,1 @@
+O projeto dado pela workshop se encontra dividido entre Mobile, Web e Node
