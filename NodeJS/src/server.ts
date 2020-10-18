@@ -12,8 +12,8 @@ import errorHandler from './errors/handler';
 const app = express();
 
 app.use(cors({
-    origin: ['*'],
-    methods: 'GET,POST,PUT',
+    origin: ['http://localhost:3000'],
+    methods: 'GET,POST',
     optionsSuccessStatus: 204
 }));
 //Habilitar o uso de Json no request

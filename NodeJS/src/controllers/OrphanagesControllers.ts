@@ -66,7 +66,7 @@ export default {
             about,
             instructions,
             opening_hours,
-            open_on_weekends,
+            open_on_weekends: open_on_weekends === 'true',
             images
         };
 
@@ -74,13 +74,13 @@ export default {
             name: Yup.string().required('Nome obrigatório'),
             latitude: Yup.number().required('Latitude obrigatória'),
             longitude: Yup.number().required('Longitude obrigatório'),
-            about: Yup.string().max(300).required('Campo Sobre é obrigatório'),
+            about: Yup.string().required('Campo Sobre é obrigatório').max(300),
             instructions: Yup.string().required('Instruções é obrigatório'),
             opening_hours: Yup.string().required('Horário de abertura é obrigatório'),
             open_on_weekends: Yup.boolean().required('Informar se abre nos fins de semana é obrigatório'),
             images: Yup.array(
                 Yup.object().shape({
-                    patch: Yup.string().required('Uma imagem é Obrigatória')
+                    path: Yup.string().required('Uma imagem é Obrigatória')
                 })
             )
         });
