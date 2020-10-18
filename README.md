@@ -1,5 +1,5 @@
 <h1> Projeto Workshop NLW3</h1>
-<p>O projeto dado pela workshop se encontra dividido entre Mobile, Web e Node</p>
+<p>O projeto dado pela workshop que se encontra dividido entre Mobile, Web e Node</p>
 
 <h2> Sobre o Backend </h2>
 <p> O backend foi feito em NodeJs e pode ser acessado na pasta NodeJS</p>
