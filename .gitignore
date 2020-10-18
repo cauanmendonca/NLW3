@@ -1,3 +1,17 @@
+/Mobile/node_modules/**/*
+/Mobile/.expo/*
+/Mobile/npm-debug.*
+/Mobile/*.jks
+/Mobile/*.p8
+/Mobile/*.p12
+/Mobile/*.key
+/Mobile/*.mobileprovision
+/Mobile/*.orig.*
+web-build/
+
+# macOS
+/Mobile/.DS_Store
+
 
 /.pnp
 .pnp.js
